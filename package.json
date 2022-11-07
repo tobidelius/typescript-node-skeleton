@@ -1,0 +1,24 @@
+{
+  "name": "skeleton.ts",
+  "version": "1.0.0",
+  "description": "Simple skeleton application for TypeScript server programs.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "npx jest test",
+    "test:cov": "npx jest test --coverage",
+    "lint": "npx ts-standard ./src",
+    "build": "npx tsc",
+    "setup": "npm i -D @types/jest jest ts-jest ts-standard typescript"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "skeleton"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my/repo.git"
+  }
+}
