@@ -1,10 +1,10 @@
-# skeleton.ts
+# typescript-node-skeleton
 
-Simple skeleton application for TypeScript Node programs.
+Simple skeleton for TypeScript Node programs.
 
 ## Status
 
-[![Tests](https://github.com/rwxtoby/skeleton.ts/actions/workflows/tests.yml/badge.svg)](https://github.com/rwxtoby/skeleton.ts/actions/workflows/tests.yml)
+[![Tests](https://github.com/tobidelius/typescript-node-skeleton/actions/workflows/tests.yml/badge.svg)](https://github.com/tobidelius/typescript-node-skeleton/actions/workflows/tests.yml)
 
 ## Usage
 

@@ -1,7 +1,7 @@
 {
-  "name": "skeleton.ts",
+  "name": "typescript-node-skeleton",
   "version": "1.0.0",
-  "description": "Simple skeleton application for TypeScript server programs.",
+  "description": "Simple skeleton for TypeScript server programs.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -19,6 +19,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/my/repo.git"
+    "url": "git+https://github.com/tobidelius/typescript-node-skeleton.git"
   }
 }
