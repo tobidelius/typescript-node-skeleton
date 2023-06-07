@@ -11,7 +11,7 @@
     "build": "npx tsc",
     "setup": "npm i -D @types/jest jest ts-jest ts-standard typescript @tsconfig/node18"
   },
-  "author": "Your Name",
+  "author": "Tobias Sandelius @tobidelius",
   "license": "MIT",
   "keywords": [
     "typescript",
