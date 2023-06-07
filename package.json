@@ -9,7 +9,7 @@
     "test:cov": "npx jest test --coverage",
     "lint": "npx ts-standard ./src",
     "build": "npx tsc",
-    "setup": "npm i -D @types/jest jest ts-jest ts-standard typescript"
+    "setup": "npm i -D @types/jest jest ts-jest ts-standard typescript @tsconfig/node18"
   },
   "author": "Your Name",
   "license": "MIT",
