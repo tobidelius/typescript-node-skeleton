@@ -3,7 +3,7 @@
 /package-lock.json
 
 # TS
-/build
+/dist
 
 # Jest
 /coverage

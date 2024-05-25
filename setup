@@ -1,0 +1,9 @@
+npm i -D typescript \
+  jest \
+  ts-jest \
+  @types/jest \
+  eslint \
+  eslint-config-airbnb-base \
+  eslint-config-airbnb-typescript \
+  @typescript-eslint/eslint-plugin \
+  @typescript-eslint/parser
