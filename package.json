@@ -2,12 +2,12 @@
   "name": "typescript-node-skeleton",
   "version": "1.0.0",
   "description": "Simple skeleton for TypeScript server programs.",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npx jest test",
     "test:cov": "npx jest test --coverage",
-    "lint": "npx eslint .",
+    "lint": "npx ts-standard .",
     "build": "npx tsc"
   },
   "author": "Tobias Sandelius @tobidelius",
