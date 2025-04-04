@@ -1,23 +1,15 @@
-// Setup for the entire suit.
-global.beforeAll((done) => {
-  // console.log('BEFORE ALL')
-  done()
+beforeAll(async () => {
+  // is run before all tests
 })
 
-// Teardown for the entire suit.
-global.afterAll((done) => {
-  // console.log('AFTER ALL')
-  done()
+afterAll(async () => {
+  // is run after all tests
 })
 
-// Setup before each spec
-global.beforeEach((done) => {
-  // console.log('BEFORE EACH')
-  done()
+beforeEach(async () => {
+  // is run before each test
 })
 
-// Teardown after each spec.
-global.afterEach((done) => {
-  // console.log('AFTER EACH')
-  done()
+afterEach(async () => {
+  // is run after each test
 })

@@ -1,5 +1,5 @@
 npm i -D typescript \
-  jest \
-  ts-jest \
-  @types/jest \
+  @types/node \
+  @vitest/coverage-v8 \
+  vitest \
   ts-standard

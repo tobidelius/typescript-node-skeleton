@@ -5,7 +5,7 @@
 # TS
 /dist
 
-# Jest
+# Code Coverage
 /coverage
 
 # OS generated files

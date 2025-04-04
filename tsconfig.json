@@ -1,16 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "baseUrl": "."
+    "target": "ES2020", // Set to a modern ECMAScript version (or "ESNext" for the latest)
+    "module": "CommonJS", // Set module system to CommonJS (for Node.js)
+    "moduleResolution": "node", // Helps TypeScript find modules in Node.js
+    "lib": [
+      "ES2020"
+    ], // Include necessary libraries for Node.js runtime
+    "esModuleInterop": true, // Allow default imports from modules that don't have a default export
+    "skipLibCheck": true, // Skip type checking of declaration files (speeds up build)
+    "strict": true, // Enable strict type checking
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+    "outDir": "./dist", // Directory where compiled JavaScript will go
+    "declaration": true, // Generate TypeScript declaration files (.d.ts)
+    "declarationMap": true, // Generate map files for declarations
+    "sourceMap": true, // Enable source maps for debugging
+    "allowJs": false, // Do not allow JavaScript files in the project
+    "resolveJsonModule": true, // Allow importing JSON modules (if needed)
+    "noEmitOnError": true, // Don't emit any files if there are errors
+    "types": [
+      "node",
+      "vitest/globals"
+    ]
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
