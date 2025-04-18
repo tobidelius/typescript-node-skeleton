@@ -2,8 +2,8 @@
   "name": "typescript-node-skeleton",
   "version": "1.0.0",
   "description": "Simple skeleton for TypeScript server programs.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "vitest --run",
     "test:watch": "vitest --watch",
