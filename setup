@@ -1,4 +1,5 @@
 npm i -D typescript \
+  @tsconfig/node22 \
   @types/node \
   @vitest/coverage-v8 \
   vitest \

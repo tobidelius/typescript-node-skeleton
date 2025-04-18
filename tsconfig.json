@@ -1,24 +1,14 @@
 {
+  "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2020", // Set to a modern ECMAScript version (or "ESNext" for the latest)
-    "module": "CommonJS", // Set module system to CommonJS (for Node.js)
-    "moduleResolution": "node", // Helps TypeScript find modules in Node.js
-    "lib": [
-      "ES2020"
-    ], // Include necessary libraries for Node.js runtime
-    "esModuleInterop": true, // Allow default imports from modules that don't have a default export
-    "skipLibCheck": true, // Skip type checking of declaration files (speeds up build)
-    "strict": true, // Enable strict type checking
-    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
-    "outDir": "./dist", // Directory where compiled JavaScript will go
-    "declaration": true, // Generate TypeScript declaration files (.d.ts)
-    "declarationMap": true, // Generate map files for declarations
-    "sourceMap": true, // Enable source maps for debugging
-    "allowJs": false, // Do not allow JavaScript files in the project
-    "resolveJsonModule": true, // Allow importing JSON modules (if needed)
-    "noEmitOnError": true, // Don't emit any files if there are errors
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
     "types": [
-      "node",
+      // "node" types are included by the base config
       "vitest/globals"
     ]
   },
