@@ -8,7 +8,7 @@
     "test": "vitest --run",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage --watch=false",
-    "lint": "npx ts-standard",
+    "lint": "npx eslint .",
     "build": "npx tsc"
   },
   "author": "Tobias Sandelius @tobidelius",

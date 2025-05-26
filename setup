@@ -3,4 +3,9 @@ npm i -D typescript \
   @types/node \
   @vitest/coverage-v8 \
   vitest \
-  ts-standard
+  eslint \
+  @eslint/js \
+  typescript-eslint \
+  prettier \
+  eslint-plugin-prettier \
+  eslint-config-prettier
