@@ -1,11 +1,6 @@
 npm i -D typescript \
-  @tsconfig/node22 \
+  @tsconfig/node24 \
   @types/node \
   @vitest/coverage-v8 \
   vitest \
-  eslint \
-  @eslint/js \
-  typescript-eslint \
-  prettier \
-  eslint-plugin-prettier \
-  eslint-config-prettier
+  @biomejs/biome
