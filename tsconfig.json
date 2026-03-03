@@ -8,7 +8,7 @@
     "resolveJsonModule": true,
     "noEmitOnError": true,
     "types": [
-      // "node" types are included by the base config
+      "@types/node",
       "vitest/globals"
     ]
   },
