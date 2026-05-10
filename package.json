@@ -20,13 +20,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobidelius/typescript-node-skeleton.git"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
-    "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^25.2.3",
-    "@vitest/coverage-v8": "^4.0.18",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.18"
   }
 }
