@@ -2,6 +2,7 @@
   "name": "typescript-node-skeleton",
   "version": "1.0.0",
   "description": "Simple skeleton for TypeScript server programs.",
+  "type": "module",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
