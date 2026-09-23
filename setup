@@ -4,3 +4,7 @@ npm i -D typescript \
   @vitest/coverage-v8 \
   vitest \
   @biomejs/biome
+
+if [[ -f .github/workflows/ci.yml ]]; then
+  sed -i 's|run: ./setup # change this to: npm install|run: npm install|' .github/workflows/ci.yml
+fi
