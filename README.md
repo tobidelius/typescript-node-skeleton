@@ -1,10 +1,21 @@
 # typescript-node-skeleton
 
-Simple skeleton for TypeScript Node programs.
+Small TypeScript and Node.js project skeleton with TypeScript, Vitest, Biome,
+and GitHub Actions CI.
 
-## Usage
+## Getting started
 
-1. Start by running `./setup` to install the latest development dependencies.
-   The script also updates the GitHub Action to use `npm install`.
-2. After this is done you you can remove the `setup` file.
-3. Make sure you edit `package.json` with a new name and meta information.
+Requires Node.js 24 or newer.
+
+1. Run `node setup.mjs` to install the latest development dependencies.
+2. Update the name and metadata in `package.json`.
+3. Remove `setup.mjs`.
+
+## Commands
+
+```text
+npm run build       Build to dist/
+npm run typecheck   Type-check source and tests
+npm test            Run tests
+npm run lint        Check formatting and lint rules
+```

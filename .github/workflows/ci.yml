@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: ./setup # change this to: npm install
+      - run: node setup.mjs # change this to: npm install
       - run: npm run lint
       - run: npm run test:coverage
         env:
