@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Simple skeleton for TypeScript server programs.",
   "type": "module",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "vitest --run",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage --watch=false",
+    "typecheck": "tsc -p tsconfig.json",
     "lint": "npx biome check",
-    "build": "npx tsc"
+    "build": "npx tsc -p tsconfig.build.json"
   },
   "author": "Tobias Sandelius @tobidelius",
   "license": "MIT",
@@ -21,5 +22,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobidelius/typescript-node-skeleton.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "@tsconfig/node24": "^24.0.5",
+    "@types/node": "^26.6.2",
+    "@vitest/coverage-v8": "^5.0.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
   }
 }
